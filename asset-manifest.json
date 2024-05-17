@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/docterclinic/static/css/main.45b47efe.css",
-    "main.js": "/docterclinic/static/js/main.697b362d.js",
+    "main.css": "/docterclinic/static/css/main.4dc434f5.css",
+    "main.js": "/docterclinic/static/js/main.6b9b99d5.js",
     "static/js/787.b32f12a2.chunk.js": "/docterclinic/static/js/787.b32f12a2.chunk.js",
     "static/media/doctor.png": "/docterclinic/static/media/doctor.7c2bc96d67d3eba1d64a.7c2bc96d67d3eba1d64a.png",
     "static/media/pic2.jpg": "/docterclinic/static/media/pic2.67db6c474a828bd7a0cd.67db6c474a828bd7a0cd.jpg",
@@ -21,12 +21,12 @@
     "static/media/hospital-bed.png": "/docterclinic/static/media/hospital-bed.3ed76dc5881c8b23ad02.png",
     "static/media/shape1.png": "/docterclinic/static/media/shape1.1112f1ac0dc18e511a91.1112f1ac0dc18e511a91.png",
     "index.html": "/docterclinic/index.html",
-    "main.45b47efe.css.map": "/docterclinic/static/css/main.45b47efe.css.map",
-    "main.697b362d.js.map": "/docterclinic/static/js/main.697b362d.js.map",
+    "main.4dc434f5.css.map": "/docterclinic/static/css/main.4dc434f5.css.map",
+    "main.6b9b99d5.js.map": "/docterclinic/static/js/main.6b9b99d5.js.map",
     "787.b32f12a2.chunk.js.map": "/docterclinic/static/js/787.b32f12a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45b47efe.css",
-    "static/js/main.697b362d.js"
+    "static/css/main.4dc434f5.css",
+    "static/js/main.6b9b99d5.js"
   ]
 }
