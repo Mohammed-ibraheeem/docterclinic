@@ -1,0 +1,169 @@
+.account-wraper1 .appointment-inner {
+  background-image: url("../Assets/download\ \(26\).png");
+  background-repeat: no-repeat;
+  background-position: 120px 120px;
+}
+.account-wraper1 .appointment-inner {
+  background-color: #f5f5fc;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin: 0px 30px;
+  border-radius: 40px;
+  position: relative;
+  z-index: 1;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.appointment-form {
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 10px 60px 0 rgba(31, 34, 120, 0.1);
+  padding: 40px 60px 40px 20px;
+  position: relative;
+  text-align: center;
+}
+.title {
+  font-size: 36px;
+}
+.form-wraper .form-control {
+  border: 1px solid rgba(86, 90, 207, 0.3);
+  border-radius: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+}
+.appointment-form button {
+  margin-top: 15px;
+}
+.btn-secondary {
+  background-color: #f17732 !important;
+  border: #f17732 solid !important;
+  width: 250px;
+  height: 70px;
+  color: #fff;
+}
+.btn-secondary:hover {
+  opacity: 0.8;
+  box-shadow: #f17732;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  font-size: 18px;
+  line-height: 1;
+  padding: 20px 35px;
+}
+.appointment-form:after {
+  border: 2px solid #565acf;
+  border-radius: 40px;
+  content: "";
+  height: 100%;
+  left: -20px;
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  z-index: -1;
+}
+.appointment-thumb {
+  position: relative;
+}
+img {
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.imaaage-1 {
+  position: relative;
+  left: 10%;
+  z-index: -1;
+}
+.imaaage-2 {
+  position: absolute;
+  left: 64%;
+  top: 9%;
+  animation: move 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.imaaage-3 {
+  position: absolute;
+  left: 20%;
+  top: 43%;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.imaaage-4 {
+  position: absolute;
+  left: 60%;
+  top: 63%;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.imaaage-5 {
+  position: absolute;
+  left: 7%;
+  top: 20%;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.imaaage-6 {
+  position: absolute;
+  left: 85%;
+  top: -5%;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.piiic-1 {
+  position: absolute;
+  left: 4.5%;
+  top: 15%;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.piiic-2 {
+  position: absolute;
+  left: -6%;
+  top: 70%;
+  animation: move 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.piiic-3 {
+  position: absolute;
+  left: 90%;
+  top: -2%;
+  animation: move 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+.piiic-4 {
+  position: absolute;
+  left: 90%;
+  top: 92%;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3s ease all;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translatex(-10px);
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .appointment-thumb {
+    padding-left: 0;
+    width: 100%;
+  }
+  .appointment-thumb .images-group .img1 {
+    height: 280px;
+  }
+}
