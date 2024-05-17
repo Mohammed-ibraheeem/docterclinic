@@ -7,7 +7,6 @@ import AboutUS from "./components/AboutUs";
 import Working from "./components/Working";
 import BookAppointment from "./components/BookAppointment";
 import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
 import LatestNews from "./components/LatestNews";
 
 
@@ -15,6 +14,14 @@ function App() {
   return (
     <>
       <Navbars />
+      <>
+        <Home />
+        <AboutUS />
+        <Working />
+        <BookAppointment />
+        <Services />
+        <LatestNews />
+      </>
       <Routes>
         <Route path="/" element={
           <>
@@ -23,7 +30,6 @@ function App() {
             <Working />
             <BookAppointment />
             <Services />
-            <Testimonial />
             <LatestNews />
           </>
         } />
@@ -34,7 +40,6 @@ function App() {
             <Working />
             <BookAppointment />
             <Services />
-            <Testimonial />
             <LatestNews />
           </>
         } />
